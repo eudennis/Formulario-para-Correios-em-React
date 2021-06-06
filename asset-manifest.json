@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/formulario-correios-react/static/css/main.b6bc2d93.chunk.css",
-    "main.js": "/formulario-correios-react/static/js/main.0fbf0176.chunk.js",
-    "main.js.map": "/formulario-correios-react/static/js/main.0fbf0176.chunk.js.map",
-    "runtime-main.js": "/formulario-correios-react/static/js/runtime-main.6915f560.js",
-    "runtime-main.js.map": "/formulario-correios-react/static/js/runtime-main.6915f560.js.map",
-    "static/js/2.3614f411.chunk.js": "/formulario-correios-react/static/js/2.3614f411.chunk.js",
-    "static/js/2.3614f411.chunk.js.map": "/formulario-correios-react/static/js/2.3614f411.chunk.js.map",
-    "static/js/3.97f42884.chunk.js": "/formulario-correios-react/static/js/3.97f42884.chunk.js",
-    "static/js/3.97f42884.chunk.js.map": "/formulario-correios-react/static/js/3.97f42884.chunk.js.map",
+    "main.css": "/formulario-correios-react/static/css/main.70674f77.chunk.css",
+    "main.js": "/formulario-correios-react/static/js/main.1cba6b82.chunk.js",
+    "main.js.map": "/formulario-correios-react/static/js/main.1cba6b82.chunk.js.map",
+    "runtime-main.js": "/formulario-correios-react/static/js/runtime-main.1715f156.js",
+    "runtime-main.js.map": "/formulario-correios-react/static/js/runtime-main.1715f156.js.map",
+    "static/js/2.5f6c14b0.chunk.js": "/formulario-correios-react/static/js/2.5f6c14b0.chunk.js",
+    "static/js/2.5f6c14b0.chunk.js.map": "/formulario-correios-react/static/js/2.5f6c14b0.chunk.js.map",
+    "static/js/3.33f27eff.chunk.js": "/formulario-correios-react/static/js/3.33f27eff.chunk.js",
+    "static/js/3.33f27eff.chunk.js.map": "/formulario-correios-react/static/js/3.33f27eff.chunk.js.map",
     "index.html": "/formulario-correios-react/index.html",
-    "static/css/main.b6bc2d93.chunk.css.map": "/formulario-correios-react/static/css/main.b6bc2d93.chunk.css.map",
-    "static/js/2.3614f411.chunk.js.LICENSE.txt": "/formulario-correios-react/static/js/2.3614f411.chunk.js.LICENSE.txt",
+    "static/css/main.70674f77.chunk.css.map": "/formulario-correios-react/static/css/main.70674f77.chunk.css.map",
+    "static/js/2.5f6c14b0.chunk.js.LICENSE.txt": "/formulario-correios-react/static/js/2.5f6c14b0.chunk.js.LICENSE.txt",
     "static/media/icon-add.376e9b6a.svg": "/formulario-correios-react/static/media/icon-add.376e9b6a.svg",
     "static/media/icon-remove.15c4fe00.svg": "/formulario-correios-react/static/media/icon-remove.15c4fe00.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6915f560.js",
-    "static/js/2.3614f411.chunk.js",
-    "static/css/main.b6bc2d93.chunk.css",
-    "static/js/main.0fbf0176.chunk.js"
+    "static/js/runtime-main.1715f156.js",
+    "static/js/2.5f6c14b0.chunk.js",
+    "static/css/main.70674f77.chunk.css",
+    "static/js/main.1cba6b82.chunk.js"
   ]
 }
