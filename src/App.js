@@ -16,6 +16,7 @@ class App extends Component {
 
 
 render(){
+  document.title = "Formulário de Declaração de Conteúdo"
   return(
 <div className="App">
       <Header />

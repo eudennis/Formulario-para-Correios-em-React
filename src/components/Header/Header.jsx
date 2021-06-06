@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import InputMask from 'react-input-mask'
 
 class Header extends Component {
   render() {
@@ -66,7 +67,8 @@ class Header extends Component {
                       <span>UF:</span>
                     </div>
                     <div className="col-8">
-                      <input type="text" id="uf_remetente" placeholder="UF" />
+                      {/* <input type="text" id="uf_remetente" placeholder="UF" /> */}
+                      <InputMask id="uf_remetente" placeholder="UF" mask="aa" />
                     </div>
                   </div>
                 </div>
@@ -79,10 +81,10 @@ class Header extends Component {
                       <span>CEP:</span>
                     </div>
                     <div className="col-9">
-                      <input
-                        type="text"
+                      <InputMask
                         id="cep_remetente"
-                        placeholder="000.000.000-00"
+                        mask="99.999-999"
+                        placeholder="00.000-000"
                       />
                     </div>
                   </div>
@@ -96,7 +98,7 @@ class Header extends Component {
                       <input
                         type="text"
                         id="cpf-cnpj_remetente"
-                        placeholder="000000"
+                        placeholder="000.000.000-00"
                       />
                     </div>
                   </div>
@@ -108,12 +110,18 @@ class Header extends Component {
               <h2>Destinatário</h2>
               <div className="row">
                 <div className="col-sm nome">
-                  <span>Nome:</span>
-                  <input
-                    type="text"
-                    id="nome_destinatario"
-                    placeholder="Nome Sobrenome"
-                  />
+                  <div className="row">
+                    <div className="col-2">
+                      <span>Nome:</span>
+                    </div>
+                    <div className="col-10">
+                      <input
+                        type="text"
+                        id="nome_destinatario"
+                        placeholder="Nome Sobrenome"
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -130,35 +138,63 @@ class Header extends Component {
 
               <div className="row">
                 <div className="col-9 cidade">
-                  <span>Cidade:</span>
-                  <input
-                    type="text"
-                    id="cidade_destintario"
-                    placeholder="Cidade"
-                  />
+                  <div className="row">
+                    <div className="col-3">
+                      <span>Cidade:</span>
+                    </div>
+                    <div className="col-9">
+                      <input
+                        type="text"
+                        id="cidade_destintario"
+                        placeholder="Cidade"
+                      />
+                    </div>
+                  </div>
                 </div>
                 <div className="col-3 uf">
-                  <span>UF:</span>
-                  <input type="text" id="uf_destinatario" placeholder="UF" />
+                  <div className="row">
+                    <div className="col-4">
+                      <span>UF:</span>
+                    </div>
+                    <div className="col-8">
+                      <InputMask
+                        mask="aa"
+                        placeholder="UF"
+                        id="uf_destinatario"
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
 
               <div className="row">
                 <div className="col-5 cep">
-                  <span>CEP:</span>
-                  <input
-                    type="text"
-                    id="cep_destinatario"
-                    placeholder="000000-000"
-                  />
+                  <div className="row">
+                    <div className="col-4">
+                      <span>CEP:</span>
+                    </div>
+                    <div className="col-8">
+                      <InputMask
+                        id="cep_destinatario"
+                        mask="99.999-999"
+                        placeholder="00.000-000"
+                      />
+                    </div>
+                  </div>
                 </div>
                 <div className="col-7 cpf_cnpj">
-                  <span>CPF/CNPJ:</span>
-                  <input
-                    type="text"
-                    id="cpf-cnpj_destinatario"
-                    placeholder="00000000000"
-                  />
+                  <div className="row">
+                    <div className="col-4">
+                      <span>CPF/CNPJ:</span>
+                    </div>
+                    <div className="col-8">
+                      <input
+                        type="text"
+                        id="cpf-cnpj_destinatario"
+                        placeholder="000.000.000-00"
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

@@ -96,6 +96,9 @@ body {
 .remetente_destinatario .nome, .remetente_destinatario .endereco, .remetente_destinatario .cidade, .remetente_destinatario .cep {
     padding-left: 2px;
 }
+.cep div, .cpf_cnpj div {
+    border-bottom: 0!important;
+}
 .endereco textarea {
     width: 90%;
 }
@@ -286,6 +289,9 @@ body {
 .row.subassinaturas {
     text-align: center;
     font-size: 8pt;
+}
+#uf_remetente, #uf_destinatario {
+    text-transform: uppercase;
 }
 /* #uf_remetente, #cep_remetente, #cpf-cnpj_remetente {
     max-width: 60%;
